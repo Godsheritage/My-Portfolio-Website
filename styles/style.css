@@ -1,0 +1,164 @@
+/*Universal elements*/
+
+*{
+	margin:0;
+	padding:0;
+}
+.fas-serv{
+	text-align:center;
+	color: #f1d37d;
+}
+.fasc{
+	color:white;
+}
+hr.line-center{
+	border: 2px solid black;
+    width: 75px;
+    margin:0 auto 15px;
+}
+
+hr.line-left{
+    border: 2px solid black;
+    width: 75px;
+    margin: 0 0 15px;
+}
+.container{
+	font-family:sans-serif;
+}
+.col{
+	color:#f1d37d;
+}
+.custom-btn{
+	color:white;
+	background-color:rgba(0, 0, 0, 0);
+	width:170px;
+	height:45px;
+	border:2px solid white;
+	margin-left:60px;
+}
+.custom-btn:hover{
+	border:2px solid #ffffff;
+	color:#ffffff;
+}
+.custom-btn-2{
+	color:black;
+	background-color:rgba(0, 0, 0, 0);
+	width:170px;
+	height:45px;
+	border:1px solid black;
+}
+.custom-btn-2:hover{
+	background-color:#f1d37d;
+	border:none;
+}
+.custom-btn-3{
+	color:white;
+	background-color:#f1d37d;
+	width:170px;
+	height:45px;
+	border:none;
+}
+.custom-btn-3:hover{
+	background-color:#f1d37d;
+	border:none;
+}
+/*Universal elements*/
+
+/*head section*/
+.home{
+	background-image: url(../images/1.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	height:100vh;
+	color:white;
+	min-height:500px;
+	display:flex;
+	font-family:sans-serif;
+}
+
+.text{
+	margin:auto 0 auto 450px;
+}
+.text .text-1{ font-size:40px;
+	font-weight:bold;
+}
+.text .text-2{font-size:40px;
+	font-weight:bold;
+}
+.text .text-3{font-size:16px;
+}
+
+/*Head section*/
+
+
+
+.row-space{
+	margin-top:80px;
+}
+/*available section*/
+.hire-me{
+	background-image: url("../images/5.jpg");
+	background-position:top;
+	height:250px;
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+}
+.hire-me section h1{
+	color:white;
+	padding-top:60px;
+	padding-left:60px;
+}
+/*available section*/
+
+
+
+
+.pic{
+	margin-top: -50px;
+}
+.port-sect{
+	background-color:#f1d37d;
+}
+
+
+
+
+
+/*contact section*/
+.contact-fields{
+	font-family:sans-serif;
+	border:none;
+}
+.contact-fields a{
+	color:black;
+	text-decoration:none;
+	font-family:sans-serif;
+}
+/*contact section*/
+
+
+
+
+/*social icons*/
+.social{
+	float:right;
+	margin-top:5px;
+}
+.social-foot{
+	text-align:center;
+}
+.social-foot-list{
+	margin-left:20px;
+	display:inline;
+
+}
+.social-list{
+	list-style:none;
+	display:inline;
+	margin-left:20px;
+}
+/*social icons*/
+
+
