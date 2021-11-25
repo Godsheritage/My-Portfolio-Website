@@ -10,50 +10,42 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/all.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/animations.css">
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div>
 		<!------------------------------------------------------------------------------------------------------>
 		<!--navigation section start-->
 		<!------------------------------------------------------------------------------------------------------>
-		<nav>
-			<ul class="nav nav-pills my-3 justify-content-center" >
-				<li class="nav-item">
-					<a href="#" class="nav-link active">HOME</a>
-				</li>
-				<li class="nav-item">
-					<a href="#about" class="nav-link">ABOUT</a>
-				</li>
-				<li class="nav-item">
-					<a href="#services" class="nav-link">SERVICES</a>
-				</li>
-				<li class="nav-item">
-					<a href="#portfolio" class="nav-link">PORTFOLIO</a>
-				</li>
-				<li class="nav-item">
-					<a href="#contact" class="nav-link">CONTACT</a>
-				</li>
-
-				<span class="social">
-					<ul class="social">
-						<li class="social-list">
-							<a href="whatsapp.com" target="_blank"><i class="fab fa-whatsapp fa-lg"></i></a>
+		<div class="super-container">
+			<nav class="nav">
+				<div class="logo"><a href="#"><span class="col">'</span>GodsHeritage<span class="col">.</span></a></div>
+				<div>
+					<ul class="list">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#services">SERVICES</a></li>
+						<li><a href="#portfolio">PORTFOLIO</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul class="social-lists">
+						<li class="socials">
+							<a href="whatsapp.com" target="_blank"><i class="fab fa-whatsapp fa-lg fasc"></i></a>
 						</li >
-						<li class="social-list">
-							<a href="whatsapp.com" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+						<li class="socials">
+							<a href="whatsapp.com" target="_blank"><i class="fab fa-instagram fa-lg fasc"></i></a>
 						</li>
-						<li class="social-list">
-							<a href="whatsapp.com" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+						<li class="socials">
+							<a href="whatsapp.com" target="_blank"><i class="fab fa-twitter fa-lg fasc"></i></a>
 						</li>
-						<li class="social-list">
-							<a href="whatsapp.com" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+						<li class="socials">
+							<a href="whatsapp.com" target="_blank"><i class="fab fa-facebook-f fa-lg fasc"></i></a>
 						</li>
 					</ul>
-				</span>
-					
-	         </ul>
-		</nav>
+				</div>
+			</nav>
 	    <!------------------------------------------------------------------------------------------------------>                      
 		<!--navigation section end-->
 		<!------------------------------------------------------------------------------------------------------>
@@ -66,8 +58,9 @@
 		<section class="home">
 			<div class="text">
 				<div class="text-1">Hello</div>
-				<div class="text-2">My name is <span class="col">Godsheritage</span></div>
-				<div class="text-3">Web developer|Web designer| wordpress|</div>
+				<div class="text-2">My name is <span class="col"><span clas="col">'</span>GodsHeritage<span class="col">.</span></span></div>
+				<div class="text-3">Web developer|Web designer|wordpress|</div>
+				<div><button class="custom-btn-4 btn-anim"><a href="#"></a>Hire Me</button></div>
 			</div>
 		</section>
 		<!------------------------------------------------------------------------------------------------------>
@@ -81,17 +74,18 @@
 		<!------------------------------------------------------------------------------------------------------>
 		</section id="about" class="container">
 			<div class="row row-space" id="about">
-				<div class="col-md-5">
+				<div class="col-md-5 about-pic">
 					<img src="images/7.png" class="img-fluid pic">
 				</div>
 				<div class="col-md-7">
-					<h1>About <span class="col">Me</span></h1>
-					<hr class="line-left">
+					<span class="text-anim"><h1>About <span class="col">Me</span></h1>
+					<hr class="line-left"></span>
 					<h3>I'm Different From Your Typical Kind Of Male</h3>
 					<p>Allow me to reintroduce myself my name is 'TiFe Pariola, a web designer & developer, a brand developer and a digital marketer. Because every client is awesome, I make sure their projects are as awesome as I am.</p>
-					<button class="custom-btn-2"><a href="#"></a>Contact me</button>
+					<button class="custom-btn-2 btn-anim"><a href="#"></a>Contact me</button>
 				</div>
 			</div>
+			<div class="boxx"></div>
 		</section>
 		<!------------------------------------------------------------------------------------------------------>
 		<!--About section end-->
@@ -104,7 +98,7 @@
 		<!------------------------------------------------------------------------------------------------------>
 		<section id="services"class="bg-light service pb-5">
 			<div class="row row-space">
-				<div class="col-md-12">
+				<div class="col-md-12 text-anim">
 					<h1 class="text-center"><span class="col">My</span> Offerings</h1>
 					<hr class="line-center">
 				</div>
@@ -144,16 +138,16 @@
 		<!------------------------------------------------------------------------------------------------------>
 		<!--Available section start-->
 		<!------------------------------------------------------------------------------------------------------>
-		<div class="hire-me">
-			<section>
+		<sections>	
+			<div class="hire-me">
 				<div class="row row-space">
 					<div class="col-md-12">
 						<h1><strong>I Am Available For Freelance</strong></h1>
 						<button class="custom-btn">Hire Me Now</button>
 					</div>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
 		<!------------------------------------------------------------------------------------------------------>
 		<!--Available section end-->
 		<!------------------------------------------------------------------------------------------------------>
@@ -165,7 +159,7 @@
 		<!------------------------------------------------------------------------------------------------------>
 		<section id="portfolio" class="container">
 			<div class="row row-space">
-				<div class="col-md-12">
+				<div class="col-md-12 text-anim">
 					<h1 class="text-center"><span class="col">My</span> portfolio</h1>
 					<hr class="line-center">
 				</div>
@@ -182,17 +176,6 @@
 				</div>
 			</div>
 
-			<div class="row mt-5">
-				<div class="col-md-4">
-					<img src="images/6.jpg" class="img-fluid port-sect p-3">
-				</div>
-				<div class="col-md-4">
-					<img src="images/6.jpg" class="img-fluid port-sect p-3">
-				</div>
-				<div class="col-md-4">
-					<img src="images/6.jpg" class="img-fluid port-sect p-3">
-				</div>
-			</div>
 		</section>
 		<!------------------------------------------------------------------------------------------------------>
 		<!--Portfolio section end-->
@@ -205,7 +188,7 @@
 		<!------------------------------------------------------------------------------------------------------>
 		<section id="contact" class="container">
 			<div class="row row-space">
-				<div class="col-md-12">
+				<div class="col-md-12 text-anim">
 					<h1 class="col-md-12 text-center">Contact<span class="col"> me</span></h1>
 					<hr class="line-center">
 				</div>
@@ -245,7 +228,7 @@
 						<div>	
 							<textarea placeholder="message" class="mt-3 form-control"></textarea>
 						</div>
-						<button class="btn btn-primary mt-3">Submit</button>
+						<button class="custom-btn-5 btn-anim"><a href="#"></a>Submit</button>
 					</form>
 				</div>
 				<div class="col-md-6">
@@ -271,7 +254,7 @@
 		<!------------------------------------------------------------------------------------------------------>
 		<div class="row bg-dark pt-3">
 			<div class="col-md-12">
-				<ul class="social-foot pt-3">
+				<ul class="social-foot pt-3 text-anim">
 					<li class="social-foot-list">
 						<a href="whatsapp.com" target="_blank"><i class="fab fa-whatsapp fa-lg fasc"></i></a>
 					</li >
