@@ -1,0 +1,79 @@
+.text-anim{
+	position:relative;
+	animation-name:textanim;
+	animation-duration:5s;
+}
+@keyframes textanim{ 
+	0% {top: -100px;}
+	100% {top:0px;}
+}
+
+.text{
+	margin:auto 0 auto 450px;
+	position:relative;
+	animation-name:heading;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+}
+@keyframes heading{
+	0% {top: -500px;}
+	100% {top: 0px;}
+}
+
+.btn-anim{
+	position:relative;
+	animation:btn-anim;
+	animation-duration:3s;
+	animation-delay:3s;
+	animation-fill-mode:forwards;
+	opacity:0;
+}
+@keyframes btn-anim{
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.about-pic{
+	position:relative;
+	animation:pic-anim;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+}
+	@keyframes pic-anim{
+	0% {left: -200px;}
+	100% {left: 0px;}
+}
+
+.pic{
+	position:relative;
+	animation-name:pic-animated;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	animation-delay:3s;
+}
+@keyframes pic-animated{
+	0% {border:2px dashed red;}
+	25% {border:2px dashed green;}
+	50% {border:2px dashed blue;}
+	75% {border:2px dashed black;}
+	100% {border:2px dashed red;}
+}
+
+.boxx{
+	width:20px;
+	height:20px;
+	position:relative;
+	background-color:black;
+	margin-left:1000px;
+	animation:boxx-anim;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+}
+@keyframes boxx-anim{
+	0% {bottom: 0px; left: 0px; background-color:red;}
+	25% {bottom: 200px; left: 0px; background-color:green;}
+	50% {bottom: 100px; left: 100px; background-color:blue;}
+	75% {bottom: 0px; left: 200px; background-color:black;}
+	100% {bottom: 0px; left: 0px; background-color:red;}
+}
+
